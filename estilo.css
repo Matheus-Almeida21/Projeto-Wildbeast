@@ -13,6 +13,8 @@ a{
 }
 img{
   max-width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 
 /*GRID GERAL*/
@@ -71,7 +73,7 @@ img{
   margin-left: 30px;
 }
 
-/*SIDENAV ESQUERDO D APAGINA*/
+/*SIDENAV ESQUERDO DA PAGINA*/
 .sidenav{
   background-color: #fafbfc;
   padding: 30px;
@@ -89,4 +91,23 @@ img{
 }
 .sidenav li a:hover{
   background-color: #B07DFB;
+}
+
+/*SEÇÃO DE ANUNCIOS DA PAGINA*/
+.anuncios{
+  background-color: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
+}
+
+/*FOOTER DA PAGINA*/
+.footer{
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
 }
